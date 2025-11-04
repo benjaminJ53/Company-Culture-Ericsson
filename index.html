@@ -1,46 +1,60 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Ericsson UK ltd</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ericsson UK ltd</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
-
 <body>
 <header>
-    <div class="logo">
-        <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F88%2F03%2Fteamwork-logo-icon-vector-29518803.jpg&f=1&nofb=1&ipt=37749d5598c9c1f0263e8d459f445bf63431cb98d7de0d745ea4b531a99869c8 alt="EU" width="80" height="80">
-        <div class="logo text">Ericsson: Innovative Technologies</div>
-        <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F88%2F03%2Fteamwork-logo-icon-vector-29518803.jpg&f=1&nofb=1&ipt=37749d5598c9c1f0263e8d459f445bf63431cb98d7de0d745ea4b531a99869c8 alt:="Globe" width="80" height="80">
-    </div>
+  <div class="logo">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F88%2F03%2Fteamwork-logo-icon-vector-29518803.jpg&f=1&nofb=1&ipt=37749d5598c9c1f0263e8d459f445bf63431cb98d7de0d745ea4b531a99869c8 alt=" alt="TeamworkOne" width="80" height="80">
+    <div class="logo text">Ericsson: Innovative Technologies</div>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.vectorstock.com%2Fi%2F1000x1000%2F88%2F03%2Fteamwork-logo-icon-vector-29518803.jpg&f=1&nofb=1&ipt=37749d5598c9c1f0263e8d459f445bf63431cb98d7de0d745ea4b531a99869c8 alt:=" alt="TeamworkTwo" width="80" height="80">
+  </div>
 </header>
-
 <main>
-    <div>
-        <li>Clan Work Culture</li>
-        <li>Warm friendly enviroment</li>
-        <li>Collaborative teams</li>
-    </div>
+  <div>
+    <li>Clan Work Culture</li>
+    <li>Warm friendly enviroment</li>
+    <li>Collaborative teams</li>
+  </div>
 </main>
-
 <div class="sections-row">
-    <section class="Our Company Culture">
-        <h3>Working Together, Search here for more details</h3>
-    </section>
 
-    <section class="flag-display-area">
-        <h3>Display Area</h3>
-    </section>
+<section class="panel our-company-culture">
+  <button class="collapsible__trigger" aria-expanded="false"
+  aria-controls="company-region" id="company-trigger">
+  <span>Company Info & Values</span>
+  </button>
+
+  <div class="collapsible__region" id="company-region" role="region"
+  aria-labelledby="company-trigger" hidden>
+  <div class="collapsible__content" id="company-content">
+  </div>
+  </div>
+  </section>
+
+<section class="panel flag-display-area">
+  <button class="collapsible__trigger" aria-expanded="false"
+  aria-controls="ethics-region" id="ethics-trigger">
+  <span>Internal Roles & Details</span>
+  </button>
+
+  <div class="collapsible__region" id="ethics-region" role="region"
+  aria-labelledby="ethics-trigger" hidden>
+  <div class="collapsible__content" id="ethics-content">
+  </div>
+  </div>
+  </section>
+
 </div>
-
 <footer>
-    <div class="logo">
-        <img src=https://www.creativefabrica.com/wp-content/uploads/2022/03/23/team-work-logo-design-Graphics-27705675-1.jpg alt="World Map" width="850" height="500">  
-    </div>
+  <div class="logo">
+    <img src=https://www.creativefabrica.com/wp-content/uploads/2022/03/23/team-work-logo-design-Graphics-27705675-1.jpg alt="World Map" width="600" height="400">  
+  </div>
 </footer>
-
-<!-- JavaScript -->
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,13 +1,11 @@
-/* BODY */
 body {
     font-family: Helvetica;
     margin: 0.1cm;
 }
 
-/* HEADER */
 header {
-    background: #064f8f;
-    color: white;
+    background: linear-gradient(to right, #0b5383, #0a6799);
+    color: rgb(221, 241, 246);
     padding: 50px;
 
 }
@@ -21,21 +19,19 @@ header {
     font-weight: bold;
 }
 
-/* MAIN */
 main {
     list-style: none;
     text-align: center;
     font-size: 20px;
     line-height: 30px;
-    color: white;
-    background: #083368;
+    color: rgb(237, 243, 123);
+    background: linear-gradient(to right, #59aae1, #044c72);
     padding: 30px;
     
 }
 
-/* SECTIONS */ 
 .sections-row {
-    background: #a6a8ad;
+    background: linear-gradient(to right, #1287d5, #e7e716);
     font-size: 25px;
     text-align: center;
     padding: 80px;
@@ -52,21 +48,8 @@ main {
     border-radius: 25px;
 }
 
-/* INPUT - BUTTON */
-section input {
-    width: 50%;
-    padding: 5px;
-    font-size: 14px;
-}
-
-section button {
-    padding: 5px;
-    margin-left: 11px;
-}
-
-/* FOOTER */
 footer {
-    background: #083368;
+    background: #080F29;
     color: white;
     padding: 25px;
 }
@@ -75,4 +58,39 @@ footer p {
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
+}
+
+/* Collapsible Containers*/
+.collapsible__trigger {
+  width: 70%;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  background: #d5d6db;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.collapsible__trigger:hover {
+  background: #c7c8cd;
+}
+
+.collapsible__region {
+  overflow: hidden;
+  background: #ffffff;
+  border: 2px solid #51515a;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.collapsible__content {
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.collapsible__content p:empty {
+  height: 5px;
 }
